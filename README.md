@@ -6,22 +6,7 @@ MarketMind AI is an enterprise-grade, multi-agent business intelligence system d
 ---
 
 ## 🏗️ System Architecture
-marketmind/
-├── app.py                 # Streamlit UI with Secure Portal Authentication & Dashboard Tabs
-├── requirements.txt       # Project dependencies
-├── src/
-│   ├── config.py          # Pydantic Settings & environment validation
-│   ├── agents/
-│   │   ├── planner.py     # Deconstructs raw scope into structured sub-questions
-│   │   ├── researcher.py  # Iterative plan-act-observe research loop
-│   │   └── quality_control.py # Automated defect & coverage audit agent
-│   ├── approval/          # Human-in-the-loop validation and publication gates
-│   ├── llm/
-│   │   ├── client.py      # OpenAI SDK wrapper client
-│   │   └── usage.py       # Real-time token consumption & USD budget tracker
-│   ├── schemas/           # Pydantic data contracts (Plan, Evidence, Tools)
-│   ├── state/             # Bounded ResearchState management
-│   └── tools/             # Adversarial dispatcher & tool registry
+
 ---
 
 ## ✨ Core Capabilities
